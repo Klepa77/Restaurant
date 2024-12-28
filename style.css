@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root {
+	box-sizing: border-box;
+}
+*,
+::before,
+::after {
+	box-sizing: inherit;
+	margin: 0;
+	padding:0;
+}
+body {
+	font-family: 'OpenSans', sans-serif;	
+
+}
+
+.hero{
+	background: url(./Images/header-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}	
+	
+
+	
+
+
+.logo{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+   
+.menu {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+}
+li > a {
+	color: #fff;
+	list-style: none;
+	text-decoration: none;
+}
+.menu a {
+	height: 100%;
+	position: relative;
+	color: #fff;
+	transition: color 0.3s ease;
+}
+
+.menu a:hover{
+
+	border-top: 5px solid #e8c300;
+	padding-top: 23px;
+}
+
+a:hover {
+	color: #e8c300;
+}
+a:hover::before {
+	background-color: #e8c300;
+}
+
+
+.schedule{
+	writing-mode: vertical-lr; 
+    font-size: 20px;
+	height: 300px;
+	color: #fff;
+	padding-top: 1.5em;
+	margin-right: 1.5em;
+	width: 10%;
+	transform: rotate(180deg)
+}
+main{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+.restaurant{
+	color: #fff;
+	text-align: center;
+	margin-top: 90px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 18px;
+
+}
+.text-center{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap:35px;
+}
+.divider{
+	height: 3px;
+	width: 7%;
+	background-color: #e8c300;
+	margin: auto;
+	
+}
+main .text-center img{
+	width:40%;
+	
+}
+
+
+.icons{
+	width: 10%;
+}
+
+
+.buttons button{
+	width: 200px;
+	height: 60px;
+	background:transparent;
+	border: 1px	solid white;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.5s;
+	
+
+}
+.buttons button:hover{
+	background-color: #e8c300;
+}
+.border{
+	border: 1px solid gray;
+	border-radius:50% ;
+	padding: 5px;
+
+}
+
+
+.scroll{
+	border-radius: 60%;
+	width: 60px;
+	height: 60px;
+	background:#f0f0f0;
+	
+
+
+	
+
+}
+.icons{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	width: 60px;
+	cursor: pointer;
+}
+.post{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	
+}
+.info{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30%;
+	
+}
+
+.text-post{
+	text-align: center;
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 28px;
+	margin-bottom: 14px;
+	
+}
+
+.post .divider {
+	margin-bottom: 25px;
+}
+
+.post-center{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.ph-1{
+	font-weight: bold;
+	
+}
+.chef{
+	background: url(./Images/shef.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
