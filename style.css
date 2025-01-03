@@ -198,4 +198,93 @@ main .text-center img{
 	background-repeat: no-repeat;
 	background-size: cover;
 
+	
+
+}
+.team{
+	text-align: center;
+	color: #fff;
+	font-size: 17px;
+	padding-top: 35px;
+	letter-spacing: 5px;
+	
+}
+.chef-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+
+}
+
+
+	
+
+.text-chef{
+	width: 45vw;
+    display: flex;
+	flex-direction: column;
+	gap: 25px;
+	align-items: center;
+}
+
+.text-chef .title{
+	font-size: 42px;
+
+}
+.text-chef p{
+	text-align: center;
+	font-size: 18px;
+	width: 70%;
+
+}
+.main-text{
+	font-size: 18px;
+	font-weight: 800;
+}
+.reserve{
+display: flex;
+flex-direction: column;
+gap: 40px;
+padding: 20px;
+}
+.order{
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+}
+.reserve .title{
+	text-align: center;
+	font-size: 42px;
+
+
+
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+form{
+	width: 30vw;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-template-rows: repeat(4,1fr);
+	padding: 20px;
+	gap: 5px;
+
+
+}
+input ,select{
+	background-color: #E5E5E5;
+	border:none;
+	border-radius: 5px;
+	height: 60px;
+	padding: 10px;
+
+}
+.reserve button{
+	width: 100%;
+	grid-column: 1/3;
 }
