@@ -39,7 +39,7 @@ body {
 	justify-content: space-around;
 	align-items: center;
 }
-li > a {
+.menu li > a {
 	color: #fff;
 	list-style: none;
 	text-decoration: none;
@@ -57,10 +57,10 @@ li > a {
 	padding-top: 23px;
 }
 
-a:hover {
+.menu a:hover {
 	color: #e8c300;
 }
-a:hover::before {
+.menu a:hover::before {
 	background-color: #e8c300;
 }
 
@@ -355,4 +355,125 @@ text-align: center;
 }
 #center{
 	background-color:#E5E5E5;
+}
+
+.menu-choice{
+	padding: 50px;
+
+}
+.menu-text{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+    gap: 20px;
+
+	
+}
+.menu-title{
+	font-size: 42px;
+
+
+}
+.menu-text p{
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 28px;
+
+
+}
+.menu-selection{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	padding: 25px;
+
+
+}
+.menu-selection a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #000000;
+	
+}
+.menu-selection li{
+	border-right: 1px solid  gray;
+	height: 50px;
+	padding: 0 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	transition: 0.3s;
+}
+
+.menu-selection li:last-child{
+	border-right: none;
+;
+}
+.menu-selection li:hover{
+	background-color: #e8c300;
+
+}
+.dishes{
+	display: flex;
+    justify-content: center;;
+    gap: 30px;
+	flex-wrap: wrap;
+	color: gray;
+	padding: 37px;
+
+}
+.dish{
+	width: 35vw;	
+	display: flex;
+	gap: 12px;
+	align-items: center;
+
+}
+
+.dish-info p:first-child{
+	display: inline !important;
+	font-size: 18px;
+	padding: 2px;
+	
+}
+.line{
+	height: 1px;
+	width: 200px;
+	background-color: #000;
+}
+.dish-info{
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	gap:10px;
+}
+
+.dish-info p:first-child, .dish-info .price{
+	color: #000;
+
+}
+.dish-info p:last-child{
+	font-size: 12px;
+}
+.navigate{
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.navigate div{
+	background: gray;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	display: flex;
+	transition: 0.3s;
+	
+	
+
+}
+.navigate div:hover{
+	background-color: #e8c300;
+	cursor: pointer;
 }
